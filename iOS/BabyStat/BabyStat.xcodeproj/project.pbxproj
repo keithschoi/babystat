@@ -12,16 +12,16 @@
 		57C7A7E62A45684800C818E4 /* BabyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7A7E52A45684800C818E4 /* BabyList.swift */; };
 		57C7A7E82A45684A00C818E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C7A7E72A45684A00C818E4 /* Assets.xcassets */; };
 		57C7A7EB2A45684A00C818E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C7A7EA2A45684A00C818E4 /* Preview Assets.xcassets */; };
-		57C7A7ED2A45684A00C818E4 /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7A7EC2A45684A00C818E4 /* Persistence.swift */; };
-		57C7A7F02A45684A00C818E4 /* BabyStat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57C7A7EE2A45684A00C818E4 /* BabyStat.xcdatamodeld */; };
 		57CDAFEA2A4574B700CA45A5 /* AddBaby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAFE92A4574B700CA45A5 /* AddBaby.swift */; };
 		57D8021D2A458E3300263819 /* BabyStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D8021C2A458E3300263819 /* BabyStat.swift */; };
 		57D802202A459EE200263819 /* StatGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D8021F2A459EE200263819 /* StatGrid.swift */; };
 		57E92CB12A48C0D0002F5E30 /* Date+String.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E92CB02A48C0D0002F5E30 /* Date+String.swift */; };
 		57E92CB32A48E51C002F5E30 /* Color+Random.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57E92CB22A48E51C002F5E30 /* Color+Random.swift */; };
 		57ED5B9F2A4642C300DF28E2 /* EnterEntry.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED5B9E2A4642C300DF28E2 /* EnterEntry.swift */; };
-		57ED5BA42A48355B00DF28E2 /* Entry+CoreDataClass+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED5BA32A48355B00DF28E2 /* Entry+CoreDataClass+CoreDataProperties.swift */; };
 		57ED5BA62A483A2C00DF28E2 /* StatDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57ED5BA52A483A2C00DF28E2 /* StatDetail.swift */; };
+		57F97A532BA24CFE0009510A /* BabyStat.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 57F97A4E2BA24CFE0009510A /* BabyStat.xcdatamodeld */; };
+		57F97A542BA24CFE0009510A /* Entry+CoreDataClass+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F97A4F2BA24CFE0009510A /* Entry+CoreDataClass+CoreDataProperties.swift */; };
+		57F97A552BA24CFE0009510A /* Persistence.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57F97A502BA24CFE0009510A /* Persistence.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,16 +31,16 @@
 		57C7A7E52A45684800C818E4 /* BabyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyList.swift; sourceTree = "<group>"; };
 		57C7A7E72A45684A00C818E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57C7A7EA2A45684A00C818E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		57C7A7EC2A45684A00C818E4 /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
-		57C7A7EF2A45684A00C818E4 /* BabyStat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyStat.xcdatamodel; sourceTree = "<group>"; };
 		57CDAFE92A4574B700CA45A5 /* AddBaby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBaby.swift; sourceTree = "<group>"; };
 		57D8021C2A458E3300263819 /* BabyStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyStat.swift; sourceTree = "<group>"; };
 		57D8021F2A459EE200263819 /* StatGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatGrid.swift; sourceTree = "<group>"; };
 		57E92CB02A48C0D0002F5E30 /* Date+String.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+String.swift"; sourceTree = "<group>"; };
 		57E92CB22A48E51C002F5E30 /* Color+Random.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Random.swift"; sourceTree = "<group>"; };
 		57ED5B9E2A4642C300DF28E2 /* EnterEntry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnterEntry.swift; sourceTree = "<group>"; };
-		57ED5BA32A48355B00DF28E2 /* Entry+CoreDataClass+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		57ED5BA52A483A2C00DF28E2 /* StatDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatDetail.swift; sourceTree = "<group>"; };
+		57F97A4F2BA24CFE0009510A /* Entry+CoreDataClass+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Entry+CoreDataClass+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		57F97A502BA24CFE0009510A /* Persistence.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
+		57F97A522BA24CFE0009510A /* BabyStat.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BabyStat.xcdatamodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +62,23 @@
 			path = Components;
 			sourceTree = "<group>";
 		};
+		5790634D2BA24BCE00DBBE59 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				57F97A512BA24CFE0009510A /* CoreData */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		5790634E2BA24C0000DBBE59 /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				57C7A7E72A45684A00C818E4 /* Assets.xcassets */,
+				57C7A7E92A45684A00C818E4 /* Preview Content */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
 		57C7A7D72A45684800C818E4 = {
 			isa = PBXGroup;
 			children = (
@@ -81,12 +98,11 @@
 		57C7A7E22A45684800C818E4 /* BabyStat */ = {
 			isa = PBXGroup;
 			children = (
-				57E92CAF2A48C048002F5E30 /* Extension */,
-				57C7A8152A456F5400C818E4 /* CoreData */,
-				57C7A8122A456DAA00C818E4 /* Views */,
 				57C7A7E32A45684800C818E4 /* BabyStatApp.swift */,
-				57C7A7E72A45684A00C818E4 /* Assets.xcassets */,
-				57C7A7E92A45684A00C818E4 /* Preview Content */,
+				57C7A8122A456DAA00C818E4 /* Screen */,
+				5790634D2BA24BCE00DBBE59 /* Service */,
+				57E92CAF2A48C048002F5E30 /* Extension */,
+				5790634E2BA24C0000DBBE59 /* Resource */,
 			);
 			path = BabyStat;
 			sourceTree = "<group>";
@@ -99,7 +115,7 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		57C7A8122A456DAA00C818E4 /* Views */ = {
+		57C7A8122A456DAA00C818E4 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
 				57C7A8132A456DD300C818E4 /* BabyList */,
@@ -108,7 +124,7 @@
 				57D802212A45A5A400263819 /* EnterEntry */,
 				57ED5B9B2A463D0800DF28E2 /* StatDetail */,
 			);
-			path = Views;
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		57C7A8132A456DD300C818E4 /* BabyList */ = {
@@ -125,16 +141,6 @@
 				57CDAFE92A4574B700CA45A5 /* AddBaby.swift */,
 			);
 			path = AddBaby;
-			sourceTree = "<group>";
-		};
-		57C7A8152A456F5400C818E4 /* CoreData */ = {
-			isa = PBXGroup;
-			children = (
-				57C7A7EC2A45684A00C818E4 /* Persistence.swift */,
-				57C7A7EE2A45684A00C818E4 /* BabyStat.xcdatamodeld */,
-				57ED5BA32A48355B00DF28E2 /* Entry+CoreDataClass+CoreDataProperties.swift */,
-			);
-			path = CoreData;
 			sourceTree = "<group>";
 		};
 		57D8021B2A458AF800263819 /* BabyStat */ = {
@@ -178,6 +184,16 @@
 				57ED5BA52A483A2C00DF28E2 /* StatDetail.swift */,
 			);
 			path = StatDetail;
+			sourceTree = "<group>";
+		};
+		57F97A512BA24CFE0009510A /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				57F97A4E2BA24CFE0009510A /* BabyStat.xcdatamodeld */,
+				57F97A4F2BA24CFE0009510A /* Entry+CoreDataClass+CoreDataProperties.swift */,
+				57F97A502BA24CFE0009510A /* Persistence.swift */,
+			);
+			path = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -250,18 +266,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57F97A542BA24CFE0009510A /* Entry+CoreDataClass+CoreDataProperties.swift in Sources */,
 				57E92CB32A48E51C002F5E30 /* Color+Random.swift in Sources */,
-				57C7A7ED2A45684A00C818E4 /* Persistence.swift in Sources */,
 				57C7A7E62A45684800C818E4 /* BabyList.swift in Sources */,
+				57F97A532BA24CFE0009510A /* BabyStat.xcdatamodeld in Sources */,
 				57CDAFEA2A4574B700CA45A5 /* AddBaby.swift in Sources */,
 				57D802202A459EE200263819 /* StatGrid.swift in Sources */,
 				57ED5BA62A483A2C00DF28E2 /* StatDetail.swift in Sources */,
-				57ED5BA42A48355B00DF28E2 /* Entry+CoreDataClass+CoreDataProperties.swift in Sources */,
+				57F97A552BA24CFE0009510A /* Persistence.swift in Sources */,
 				5731800E2A49F5C2006681DB /* EntryType.swift in Sources */,
 				57ED5B9F2A4642C300DF28E2 /* EnterEntry.swift in Sources */,
 				57E92CB12A48C0D0002F5E30 /* Date+String.swift in Sources */,
 				57C7A7E42A45684800C818E4 /* BabyStatApp.swift in Sources */,
-				57C7A7F02A45684A00C818E4 /* BabyStat.xcdatamodeld in Sources */,
 				57D8021D2A458E3300263819 /* BabyStat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -469,13 +485,14 @@
 /* End XCConfigurationList section */
 
 /* Begin XCVersionGroup section */
-		57C7A7EE2A45684A00C818E4 /* BabyStat.xcdatamodeld */ = {
+		57F97A4E2BA24CFE0009510A /* BabyStat.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
-				57C7A7EF2A45684A00C818E4 /* BabyStat.xcdatamodel */,
+				57F97A522BA24CFE0009510A /* BabyStat.xcdatamodel */,
 			);
-			currentVersion = 57C7A7EF2A45684A00C818E4 /* BabyStat.xcdatamodel */;
-			path = BabyStat.xcdatamodeld;
+			currentVersion = 57F97A522BA24CFE0009510A /* BabyStat.xcdatamodel */;
+			name = BabyStat.xcdatamodeld;
+			path = /Users/keithc/Desktop/KC/KCJC/babystat/iOS/BabyStat/BabyStat/Service/CoreData/BabyStat.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
 		};
