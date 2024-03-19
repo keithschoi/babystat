@@ -27,10 +27,10 @@ struct EnterEntry: View {
         case update = "Update"
     }
     private var mode: EnterEntry.Mode
-    private var baby: Baby
+    private var baby: CDBaby
     
     //Init
-    init(mode: EnterEntry.Mode, baby: Baby, isPresented: Binding<Bool>) {
+    init(mode: EnterEntry.Mode, baby: CDBaby, isPresented: Binding<Bool>) {
         self.mode = mode
         self.baby = baby
         _isPresented = isPresented
@@ -130,7 +130,7 @@ struct EnterEntry: View {
     // Method
     private func enterEntry() {
         let subtypeString = getSubtypeString()
-        Entry.createWith(type: entryType.rawValue, subtype: subtypeString,
+        CDEntry.createWith(type: entryType.rawValue, subtype: subtypeString,
                          timestamp: date, value: value, baby: baby,
                          using: viewContext)
         isPresented = false 

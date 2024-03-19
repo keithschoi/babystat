@@ -10,28 +10,28 @@ import SwiftUI
 import CoreData
 
 // Entry+CoreDataClass.swift
-@objc(Entry)
-public class Entry: NSManagedObject {}
+@objc(CDEntry)
+public class CDEntry: NSManagedObject {}
 
 // Entry+CoreDataProperties.swift
-extension Entry {
+extension CDEntry {
     @NSManaged public var type: String
     @NSManaged public var subtype: String
     @NSManaged public var value: NSNumber?
     @NSManaged public var timestamp: Date
-    @NSManaged public var baby: Baby
+    @NSManaged public var baby: CDBaby
 }
 
-extension Entry {
+extension CDEntry {
     static func createWith(
         type: String,
         subtype: String,
         timestamp: Date,
         value: Double,
-        baby: Baby,
+        baby: CDBaby,
         using managedObjectContext: NSManagedObjectContext
     ) {
-        let entry = Entry(context: managedObjectContext)
+        let entry = CDEntry(context: managedObjectContext)
         entry.type = type
         entry.subtype = subtype
         entry.timestamp = timestamp
@@ -47,7 +47,7 @@ extension Entry {
     }
 }
 
-extension Entry {
+extension CDEntry {
     
     //Computed Var
     var lastDescription: String {
@@ -83,10 +83,10 @@ extension Entry {
     }
 }
 
-extension Entry {
+extension CDEntry {
     
     //Array of Dates for Grouping
-    static func getSections(_ result: FetchedResults<Entry>) -> [Date] {
+    static func getSections(_ result: FetchedResults<CDEntry>) -> [Date] {
         var dates: Set<Date> = []
         result.forEach { entry in
             let date = Calendar.current.startOfDay(for: entry.timestamp)

@@ -11,21 +11,21 @@ struct StatGrid: View {
     
     // CoreData
     @Environment(\.managedObjectContext) private var viewContext
-    @FetchRequest var result: FetchedResults<Entry>
-    private var last: Entry? {
+    @FetchRequest var result: FetchedResults<CDEntry>
+    private var last: CDEntry? {
         result.isEmpty ? nil : result[0]
     }
     
     // Var
     private let type: EntryType
-    private let baby: Baby
+    private let baby: CDBaby
     
     // Init
-    init(type: EntryType, baby: Baby) {
+    init(type: EntryType, baby: CDBaby) {
         self.type = type
         self.baby = baby
         _result = FetchRequest(
-            sortDescriptors: [NSSortDescriptor(keyPath: \Entry.timestamp, ascending: false)],
+            sortDescriptors: [NSSortDescriptor(keyPath: \CDEntry.timestamp, ascending: false)],
             predicate: NSPredicate(format: "baby == %@ && type == %@", baby, type.rawValue)
         )
     }

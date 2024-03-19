@@ -7,11 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		57234C602BA95E25005E9D4F /* BabiesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57234C5F2BA95E25005E9D4F /* BabiesViewModel.swift */; };
+		57234C622BA961B9005E9D4F /* CoreDataBabyService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57234C612BA961B9005E9D4F /* CoreDataBabyService.swift */; };
+		57234C652BA9620E005E9D4F /* BabyServiceProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57234C642BA9620E005E9D4F /* BabyServiceProtocol.swift */; };
+		57234C682BA9654B005E9D4F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 57234C672BA9654B005E9D4F /* Localizable.xcstrings */; };
+		57234C6A2BA97ABA005E9D4F /* BabyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57234C692BA97ABA005E9D4F /* BabyListView.swift */; };
+		57234C6D2BA986A4005E9D4F /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57234C6C2BA986A4005E9D4F /* Baby.swift */; };
 		5731800E2A49F5C2006681DB /* EntryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731800D2A49F5C2006681DB /* EntryType.swift */; };
 		57C7A7E42A45684800C818E4 /* BabyStatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7A7E32A45684800C818E4 /* BabyStatApp.swift */; };
-		57C7A7E62A45684800C818E4 /* BabyList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7A7E52A45684800C818E4 /* BabyList.swift */; };
+		57C7A7E62A45684800C818E4 /* BabiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7A7E52A45684800C818E4 /* BabiesView.swift */; };
 		57C7A7E82A45684A00C818E4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C7A7E72A45684A00C818E4 /* Assets.xcassets */; };
-		57C7A7EB2A45684A00C818E4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57C7A7EA2A45684A00C818E4 /* Preview Assets.xcassets */; };
 		57CDAFEA2A4574B700CA45A5 /* AddBaby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57CDAFE92A4574B700CA45A5 /* AddBaby.swift */; };
 		57D8021D2A458E3300263819 /* BabyStat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D8021C2A458E3300263819 /* BabyStat.swift */; };
 		57D802202A459EE200263819 /* StatGrid.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57D8021F2A459EE200263819 /* StatGrid.swift */; };
@@ -25,12 +30,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		57234C5F2BA95E25005E9D4F /* BabiesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabiesViewModel.swift; sourceTree = "<group>"; };
+		57234C612BA961B9005E9D4F /* CoreDataBabyService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataBabyService.swift; sourceTree = "<group>"; };
+		57234C642BA9620E005E9D4F /* BabyServiceProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyServiceProtocol.swift; sourceTree = "<group>"; };
+		57234C672BA9654B005E9D4F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		57234C692BA97ABA005E9D4F /* BabyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyListView.swift; sourceTree = "<group>"; };
+		57234C6C2BA986A4005E9D4F /* Baby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby.swift; sourceTree = "<group>"; };
 		5731800D2A49F5C2006681DB /* EntryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryType.swift; sourceTree = "<group>"; };
 		57C7A7E02A45684800C818E4 /* BabyStat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyStat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C7A7E32A45684800C818E4 /* BabyStatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyStatApp.swift; sourceTree = "<group>"; };
-		57C7A7E52A45684800C818E4 /* BabyList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyList.swift; sourceTree = "<group>"; };
+		57C7A7E52A45684800C818E4 /* BabiesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabiesView.swift; sourceTree = "<group>"; };
 		57C7A7E72A45684A00C818E4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		57C7A7EA2A45684A00C818E4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		57CDAFE92A4574B700CA45A5 /* AddBaby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBaby.swift; sourceTree = "<group>"; };
 		57D8021C2A458E3300263819 /* BabyStat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyStat.swift; sourceTree = "<group>"; };
 		57D8021F2A459EE200263819 /* StatGrid.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatGrid.swift; sourceTree = "<group>"; };
@@ -54,6 +64,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		57234C5D2BA82215005E9D4F /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				57234C5F2BA95E25005E9D4F /* BabiesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		57234C632BA96202005E9D4F /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				57234C642BA9620E005E9D4F /* BabyServiceProtocol.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		57234C662BA963CD005E9D4F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57C7A7E52A45684800C818E4 /* BabiesView.swift */,
+				57234C692BA97ABA005E9D4F /* BabyListView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57234C6B2BA98699005E9D4F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57234C6C2BA986A4005E9D4F /* Baby.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
 		5731800F2A49F627006681DB /* Components */ = {
 			isa = PBXGroup;
 			children = (
@@ -65,6 +108,8 @@
 		5790634D2BA24BCE00DBBE59 /* Service */ = {
 			isa = PBXGroup;
 			children = (
+				57234C6B2BA98699005E9D4F /* Model */,
+				57234C632BA96202005E9D4F /* Protocol */,
 				57F97A512BA24CFE0009510A /* CoreData */,
 			);
 			path = Service;
@@ -74,7 +119,7 @@
 			isa = PBXGroup;
 			children = (
 				57C7A7E72A45684A00C818E4 /* Assets.xcassets */,
-				57C7A7E92A45684A00C818E4 /* Preview Content */,
+				57234C672BA9654B005E9D4F /* Localizable.xcstrings */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -107,14 +152,6 @@
 			path = BabyStat;
 			sourceTree = "<group>";
 		};
-		57C7A7E92A45684A00C818E4 /* Preview Content */ = {
-			isa = PBXGroup;
-			children = (
-				57C7A7EA2A45684A00C818E4 /* Preview Assets.xcassets */,
-			);
-			path = "Preview Content";
-			sourceTree = "<group>";
-		};
 		57C7A8122A456DAA00C818E4 /* Screen */ = {
 			isa = PBXGroup;
 			children = (
@@ -130,7 +167,8 @@
 		57C7A8132A456DD300C818E4 /* BabyList */ = {
 			isa = PBXGroup;
 			children = (
-				57C7A7E52A45684800C818E4 /* BabyList.swift */,
+				57234C5D2BA82215005E9D4F /* ViewModel */,
+				57234C662BA963CD005E9D4F /* View */,
 			);
 			path = BabyList;
 			sourceTree = "<group>";
@@ -192,6 +230,7 @@
 				57F97A4E2BA24CFE0009510A /* BabyStat.xcdatamodeld */,
 				57F97A4F2BA24CFE0009510A /* Entry+CoreDataClass+CoreDataProperties.swift */,
 				57F97A502BA24CFE0009510A /* Persistence.swift */,
+				57234C612BA961B9005E9D4F /* CoreDataBabyService.swift */,
 			);
 			path = CoreData;
 			sourceTree = "<group>";
@@ -254,8 +293,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				57C7A7EB2A45684A00C818E4 /* Preview Assets.xcassets in Resources */,
 				57C7A7E82A45684A00C818E4 /* Assets.xcassets in Resources */,
+				57234C682BA9654B005E9D4F /* Localizable.xcstrings in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,9 +305,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57234C622BA961B9005E9D4F /* CoreDataBabyService.swift in Sources */,
+				57234C602BA95E25005E9D4F /* BabiesViewModel.swift in Sources */,
 				57F97A542BA24CFE0009510A /* Entry+CoreDataClass+CoreDataProperties.swift in Sources */,
 				57E92CB32A48E51C002F5E30 /* Color+Random.swift in Sources */,
-				57C7A7E62A45684800C818E4 /* BabyList.swift in Sources */,
+				57C7A7E62A45684800C818E4 /* BabiesView.swift in Sources */,
 				57F97A532BA24CFE0009510A /* BabyStat.xcdatamodeld in Sources */,
 				57CDAFEA2A4574B700CA45A5 /* AddBaby.swift in Sources */,
 				57D802202A459EE200263819 /* StatGrid.swift in Sources */,
@@ -277,7 +318,10 @@
 				5731800E2A49F5C2006681DB /* EntryType.swift in Sources */,
 				57ED5B9F2A4642C300DF28E2 /* EnterEntry.swift in Sources */,
 				57E92CB12A48C0D0002F5E30 /* Date+String.swift in Sources */,
+				57234C6D2BA986A4005E9D4F /* Baby.swift in Sources */,
+				57234C652BA9620E005E9D4F /* BabyServiceProtocol.swift in Sources */,
 				57C7A7E42A45684800C818E4 /* BabyStatApp.swift in Sources */,
+				57234C6A2BA97ABA005E9D4F /* BabyListView.swift in Sources */,
 				57D8021D2A458E3300263819 /* BabyStat.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -406,7 +450,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BabyStat/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -437,7 +480,6 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Manual;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_ASSET_PATHS = "\"BabyStat/Preview Content\"";
 				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;

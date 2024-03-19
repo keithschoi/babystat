@@ -12,21 +12,21 @@ struct StatDetail: View {
     
     // Var
     private var type: EntryType
-    private var baby: Baby
+    private var baby: CDBaby
     
     // CoreData
     @Environment(\.managedObjectContext) private var viewContext
-    @FetchRequest var entries: FetchedResults<Entry>
+    @FetchRequest var entries: FetchedResults<CDEntry>
     
     // State
     @State private var isUpdating: Bool = false
     
     // Init
-    init(type: EntryType, baby: Baby) {
+    init(type: EntryType, baby: CDBaby) {
         self.type = type
         self.baby = baby
         _entries = FetchRequest(
-            sortDescriptors: [NSSortDescriptor(keyPath: \Entry.timestamp, ascending: false)],
+            sortDescriptors: [NSSortDescriptor(keyPath: \CDEntry.timestamp, ascending: false)],
             predicate: NSPredicate(format: "baby == %@ && type == %@", baby, type.rawValue)
         )
     }
@@ -35,7 +35,7 @@ struct StatDetail: View {
     var body: some View {
         NavigationView {
             List {
-                ForEach(Entry.getSections(entries), id: \.self) { date in
+                ForEach(CDEntry.getSections(entries), id: \.self) { date in
                     Section(date.string(displayStyle: .dateOnlyShort)) {
                         let filtered = entries.filter {
                             Calendar.current.startOfDay(for: $0.timestamp) == date

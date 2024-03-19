@@ -10,12 +10,15 @@ import SwiftUI
 @main
 struct BabyStatApp: App {
     let persistenceController = PersistenceController.shared
-
     var body: some Scene {
         WindowGroup {
-            BabyList()
-                .environment(\.managedObjectContext,
-                              persistenceController.container.viewContext)
+            BabiesView(
+                viewModel: BabiesViewModel(
+                    service: CoreDataBabyService(
+                        context: PersistenceController.shared.container.viewContext
+                    )
+                )
+            )
         }
     }
 }

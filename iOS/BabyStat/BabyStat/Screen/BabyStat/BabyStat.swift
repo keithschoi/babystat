@@ -10,11 +10,11 @@ import SwiftUI
 struct BabyStat: View {
     
     // Var
-    private var baby: Baby
+    private var baby: CDBaby
     @State private var isEnteringStat: Bool = false
     
     // Init
-    init(baby: Baby) {
+    init(baby: CDBaby) {
         self.baby = baby
     }
     

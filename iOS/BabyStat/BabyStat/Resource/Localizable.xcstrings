@@ -1,0 +1,93 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "" : {
+
+    },
+    "%@ (%@)" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$@ (%2$@)"
+          }
+        }
+      }
+    },
+    "%@ Entry" : {
+
+    },
+    "%lld" : {
+
+    },
+    "%lld %@" : {
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "new",
+            "value" : "%1$lld %2$@"
+          }
+        }
+      }
+    },
+    "0" : {
+
+    },
+    "Add" : {
+
+    },
+    "Add a baby" : {
+
+    },
+    "Babies.AddItem" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Add item"
+          }
+        }
+      }
+    },
+    "Babies.BabyStat" : {
+      "extractionState" : "manual",
+      "localizations" : {
+        "en" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Baby stat"
+          }
+        }
+      }
+    },
+    "Birthday" : {
+
+    },
+    "Diaper type" : {
+
+    },
+    "Food type" : {
+
+    },
+    "Hey %@" : {
+
+    },
+    "Hygiene type" : {
+
+    },
+    "Name" : {
+
+    },
+    "Sleep type" : {
+
+    },
+    "Time" : {
+
+    },
+    "Type" : {
+
+    }
+  },
+  "version" : "1.0"
+}

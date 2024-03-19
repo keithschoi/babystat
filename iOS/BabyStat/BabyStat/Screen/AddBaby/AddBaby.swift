@@ -45,7 +45,7 @@ struct AddBaby: View {
     
     // Private method
     private func addBaby() {
-        let baby = Baby(context: viewContext)
+        let baby = CDBaby(context: viewContext)
         baby.name = name
         baby.birth = birth
         do {
