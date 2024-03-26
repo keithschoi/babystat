@@ -41,4 +41,18 @@ extension CoreDataBabyService {
                 timestamp: $0.timestamp)
         }
     }
+    
+    func addBaby(name: String, birth: Date, completion: @escaping (Result<Void, Error>) -> Void) {
+            let newBaby = CDBaby(context: viewContext)
+            newBaby.name = name
+            newBaby.birth = birth
+            newBaby.timestamp = Date()
+            
+            do {
+                try viewContext.save()
+                completion(.success(()))
+            } catch {
+                completion(.failure(error))
+            }
+        }
 }

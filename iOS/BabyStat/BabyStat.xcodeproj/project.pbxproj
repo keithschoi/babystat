@@ -13,6 +13,7 @@
 		57234C682BA9654B005E9D4F /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 57234C672BA9654B005E9D4F /* Localizable.xcstrings */; };
 		57234C6A2BA97ABA005E9D4F /* BabyListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57234C692BA97ABA005E9D4F /* BabyListView.swift */; };
 		57234C6D2BA986A4005E9D4F /* Baby.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57234C6C2BA986A4005E9D4F /* Baby.swift */; };
+		57301A7F2BB2CA4D00ED8C21 /* AddBabyViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57301A7E2BB2CA4D00ED8C21 /* AddBabyViewModel.swift */; };
 		5731800E2A49F5C2006681DB /* EntryType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5731800D2A49F5C2006681DB /* EntryType.swift */; };
 		57C7A7E42A45684800C818E4 /* BabyStatApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7A7E32A45684800C818E4 /* BabyStatApp.swift */; };
 		57C7A7E62A45684800C818E4 /* BabiesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 57C7A7E52A45684800C818E4 /* BabiesView.swift */; };
@@ -36,6 +37,7 @@
 		57234C672BA9654B005E9D4F /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
 		57234C692BA97ABA005E9D4F /* BabyListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyListView.swift; sourceTree = "<group>"; };
 		57234C6C2BA986A4005E9D4F /* Baby.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Baby.swift; sourceTree = "<group>"; };
+		57301A7E2BB2CA4D00ED8C21 /* AddBabyViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddBabyViewModel.swift; sourceTree = "<group>"; };
 		5731800D2A49F5C2006681DB /* EntryType.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EntryType.swift; sourceTree = "<group>"; };
 		57C7A7E02A45684800C818E4 /* BabyStat.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BabyStat.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57C7A7E32A45684800C818E4 /* BabyStatApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BabyStatApp.swift; sourceTree = "<group>"; };
@@ -95,6 +97,14 @@
 				57234C6C2BA986A4005E9D4F /* Baby.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		57301A7D2BB2CA3E00ED8C21 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				57301A7E2BB2CA4D00ED8C21 /* AddBabyViewModel.swift */,
+			);
+			path = ViewModel;
 			sourceTree = "<group>";
 		};
 		5731800F2A49F627006681DB /* Components */ = {
@@ -176,6 +186,7 @@
 		57C7A8142A456DE500C818E4 /* AddBaby */ = {
 			isa = PBXGroup;
 			children = (
+				57301A7D2BB2CA3E00ED8C21 /* ViewModel */,
 				57CDAFE92A4574B700CA45A5 /* AddBaby.swift */,
 			);
 			path = AddBaby;
@@ -315,6 +326,7 @@
 				57D802202A459EE200263819 /* StatGrid.swift in Sources */,
 				57ED5BA62A483A2C00DF28E2 /* StatDetail.swift in Sources */,
 				57F97A552BA24CFE0009510A /* Persistence.swift in Sources */,
+				57301A7F2BB2CA4D00ED8C21 /* AddBabyViewModel.swift in Sources */,
 				5731800E2A49F5C2006681DB /* EntryType.swift in Sources */,
 				57ED5B9F2A4642C300DF28E2 /* EnterEntry.swift in Sources */,
 				57E92CB12A48C0D0002F5E30 /* Date+String.swift in Sources */,

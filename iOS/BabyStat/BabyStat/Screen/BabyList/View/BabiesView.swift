@@ -22,7 +22,9 @@ struct BabiesView: View {
             BabyList(babies: $viewModel.babies)
             .navigationTitle("Babies.BabyStat")
         }.sheet(isPresented: $viewModel.isAdding) {
-            AddBaby(isPresented: $viewModel.isAdding)
+            let babyService = viewModel.service
+            let viewModel = AddBabyViewModel(babyService: babyService)
+            AddBaby(viewModel: viewModel, isPresented: $viewModel.isAdding)
         }
     }
 }
